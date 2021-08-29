@@ -1,0 +1,38 @@
+html {
+  scroll-behavior: smooth;
+  min-height: 100%;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: capitalize;
+  height: 100vh;
+}
+p {
+  font-size: 2rem;
+}
+li {
+  font-size: 2.5rem;
+  font-style: italic;
+}
+a {
+  font-size: 1.5rem;
+  font-family: monospace;
+  font-weight: bolder;
+}
+footer {
+  margin-top: auto;
+}
+/* scroll bar css  */
+html::-webkit-scrollbar {
+  width: 2rem;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: green;
+  border-radius: 50px;
+}
+html::-webkit-scrollbar-track {
+  background-color: rgb(123, 255, 0);
+}
